@@ -1214,7 +1214,7 @@
     protected function getGroups() {
 
         // add the api endpoint and method to our info array
-        $info['query_endpoint'] = '/User/' . $this->getUserId() . '/group';
+        $info['query_endpoint'] = '/User/' . $this->getUserId() . '/Group';
         $info['method'] = 0;
         // set headers
         $info['headers'] = array(
